@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combat Screen</title>
+    <link rel="stylesheet" href="../styles/combat_screen_styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Legg til navnet på fienden</h1>
+    </div>
+
+    <div class="player-container">
+        <div class="player">
+            <div id="spell-info-player"></div>
+            <div class="health-bar player" id="player-health"></div>
+            <img src="../images/manwithsword.png" alt="Player Model">
+        </div>
+        <div class="attack-container" id="attack-container">
+        </div>
+        <div class="player">
+            <div id="spell-info-enemy"></div>
+            <div class="health-bar enemy" id="enemy-health"></div>
+            <img src="../images/manwithsword-flipped.png" alt="Enemy Model">
+        </div>
+    </div>
+    <script src="../javascript/combat.js"></script>
+</body>
+</html>
